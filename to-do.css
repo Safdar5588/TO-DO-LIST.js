@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.countiner{
+    max-width: 600px;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 47, 47);
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.enter-task{
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.add-btn{
+    width: 70px;
+    background-color: black;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+}
+.tasks{
+    text-align: left;
+    position: relative;
+}
+.tasks li{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 10px 20px;
+    display: flex;
+}
+.tasks i{
+    position: absolute;
+    right: 10px;
+}
+.tasks button{
+    position: absolute;
+    right: 60px;
+    margin-top: 15px;
+}
